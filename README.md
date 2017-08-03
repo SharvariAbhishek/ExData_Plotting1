@@ -72,25 +72,25 @@ Dataset used : `usageData` - Contains the 2 days data of household energy usage 
 * Downloads the data and extracts the zip file containing data if it is not present in current working directory.
 * Subsets the data while reading it.
 * Changes the format of Date column in dataset.
-* Constructs 'plot1.png` using `hist()` command to measure the `Global active power` in dataset.
+* Constructs `plot1.png` using `hist()` command to measure the `Global active power` in dataset.
 
 ### plot2.R:
 * Downloads the data and extracts the zip file containing data if it is not present in current working directory.
 * Subsets the data while reading it.
 * Changes the format of Date column in dataset.
-* Constructs 'plot2.png` using `plot()` command to measure the `Global active power` in dataset varying over a period of 2 days of time Feb 2007.
+* Constructs `plot2.png` using `plot()` command to measure the `Global active power` in dataset varying over a period of 2 days of time Feb 2007.
 
 ### plot3.R:
 * Downloads the data and extracts the zip file containing data if it is not present in current working directory.
 * Subsets the data while reading it.
 * Changes the format of Date column in dataset.
-* Constructs 'plot3.png` using `plot()` and `lines` command to measure the `sub_metering_1`, `sub_metering_2` and `sub_metering_3` in dataset varying over a period of 2 days of time Feb 2007.
+* Constructs `plot3.png` using `plot()` and `lines` command to measure the `sub_metering_1`, `sub_metering_2` and `sub_metering_3` in dataset varying over a period of 2 days of time Feb 2007.
 
 ### plot4.R:
 * Downloads the data and extracts the zip file containing data if it is not present in current working directory.
 * Subsets the data while reading it.
 * Changes the format of Date column in dataset.
-* Constructs 'plot4.png` using `plot()` and `lines` command to measure the `Global active power`, `Voltage`, `sub_metering_1`, `sub_metering_2` , `sub_metering_3` and  `Global reactive power` in dataset varying over a period of 2 days of time Feb 2007.
+* Constructs `plot4.png` using `plot()` and `lines` command to measure the `Global active power`, `Voltage`, `sub_metering_1`, `sub_metering_2` , `sub_metering_3` and  `Global reactive power` in dataset varying over a period of 2 days of time Feb 2007.
 
 
 The four plots that need to be constructed are shown below. 
