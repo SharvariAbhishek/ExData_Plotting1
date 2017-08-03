@@ -61,35 +61,39 @@ functions.
 ## Making Plots
 
 Our overall goal here is simply to examine how household energy usage
-varies over a 2-day period in February, 2007. Your task is to
-reconstruct the following plots below, all of which were constructed
-using the base plotting system.
-
-First you will need to fork and clone the following GitHub repository:
-[https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
+varies over a 2-day period in February, 2007. plots are constructed using base plotting systems.
 
 
-For each plot you should
+This repo contains 4 scripts to construct each plot:
 
-* Construct the plot and save it to a PNG file with a width of 480
-pixels and a height of 480 pixels.
+Dataset used : `usageData` - Contains the 2 days data of household energy usage from 2007-02-01 till 2007-02-02
 
-* Name each of the plot files as `plot1.png`, `plot2.png`, etc.
+### plot1.R:
+* Downloads the data and extracts the zip file containing data if it is not present in current working directory.
+* Subsets the data while reading it.
+* Changes the format of Date column in dataset.
+* Constructs 'plot1.png` using `hist()` command to measure the `Global active power` in dataset.
 
-* Create a separate R code file (`plot1.R`, `plot2.R`, etc.) that
-constructs the corresponding plot, i.e. code in `plot1.R` constructs
-the `plot1.png` plot. Your code file **should include code for reading
-the data** so that the plot can be fully reproduced. You should also
-include the code that creates the PNG file.
+### plot2.R:
+* Downloads the data and extracts the zip file containing data if it is not present in current working directory.
+* Subsets the data while reading it.
+* Changes the format of Date column in dataset.
+* Constructs 'plot2.png` using `plot()` command to measure the `Global active power` in dataset varying over a period of 2 days of time Feb 2007.
 
-* Add the PNG file and R code file to your git repository
+### plot3.R:
+* Downloads the data and extracts the zip file containing data if it is not present in current working directory.
+* Subsets the data while reading it.
+* Changes the format of Date column in dataset.
+* Constructs 'plot3.png` using `plot()` and `lines` command to measure the `sub_metering_1`, `sub_metering_2` and `sub_metering_3` in dataset varying over a period of 2 days of time Feb 2007.
 
-When you are finished with the assignment, push your git repository to
-GitHub so that the GitHub version of your repository is up to
-date. There should be four PNG files and four R code files.
+### plot4.R:
+* Downloads the data and extracts the zip file containing data if it is not present in current working directory.
+* Subsets the data while reading it.
+* Changes the format of Date column in dataset.
+* Constructs 'plot4.png` using `plot()` and `lines` command to measure the `Global active power`, `Voltage`, `sub_metering_1`, `sub_metering_2` , `sub_metering_3` and  `Global reactive power` in dataset varying over a period of 2 days of time Feb 2007.
 
 
-The four plots that you will need to construct are shown below. 
+The four plots that need to be constructed are shown below. 
 
 
 ### Plot 1
